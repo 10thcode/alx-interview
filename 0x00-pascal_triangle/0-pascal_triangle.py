@@ -1,3 +1,10 @@
+#!/bin/usr/python3
+'''
+Contains a function that return interger representation
+of Pascal triangle
+'''
+
+
 def pascal_triangle(n):
     '''
     Gets the list of list of intergers representing
