@@ -1,18 +1,9 @@
-"""
-Contains a function that return interger representation
-of Pascal triangle
-"""
+#!/bin/usr/python3
+"""pascal_trinagle"""
+
+
 def pascal_triangle(n):
-    """
-    Gets the list of list of intergers representing
-    the Pascal's triangle of n
-
-    Args:
-        n [int]: a number
-
-    Returns:
-        tri [[int]]: a list of list of integer
-    """
+    """Gets pascal triangle"""
     if n <= 0:
         return []
 
