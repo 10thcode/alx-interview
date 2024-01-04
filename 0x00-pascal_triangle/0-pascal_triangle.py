@@ -1,12 +1,9 @@
-#!/bin/usr/python3
-'''
+"""
 Contains a function that return interger representation
 of Pascal triangle
-'''
-
-
+"""
 def pascal_triangle(n):
-    '''
+    """
     Gets the list of list of intergers representing
     the Pascal's triangle of n
 
@@ -15,7 +12,7 @@ def pascal_triangle(n):
 
     Returns:
         tri [[int]]: a list of list of integer
-    '''
+    """
     if n <= 0:
         return []
 
